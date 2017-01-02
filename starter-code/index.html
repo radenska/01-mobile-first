@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title>Blog</title>
-    <!-- TODO: Add a meta tag to properly set the viewport and initial-scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- DONE: Add a meta tag to properly set the viewport and initial-scale -->
     <link rel="stylesheet" href="vendor/styles/normalize.css">
     <link rel="stylesheet" href="vendor/icons.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- Code Fellows favicon -->
     <link rel="icon" type="image/x-icon" href="https://i.imgur.com/7v5ASc8.png">
   </head>
@@ -21,14 +23,15 @@
         <h2>The shocking power of static pages</h2>
       </section>
       <nav class="main-nav">
-        <!-- TODO: Insert here a 'hamburger' menu icon font. Use a container div! -->
+        <!-- DONE: Insert here a 'hamburger' menu icon font. Use a container div! -->
+        <div><i class="fa fa-bars" aria-hidden="true"</i></div>
         <ul>
-          <!-- TODO: Fill in the empty class attributes for each <li> with the
+          <!-- DONE: Fill in the empty class attributes for each <li> with the
                       proper icon font name -->
-          <li class="tab" data-content="articles"><a href="#" class=""> Home</a></li>
-          <li class="tab" data-content="about"><a href="#" class=""> About</a></li>
-          <li><a href="http://twitter.com/codefellowsSEA" target="_blank" class=""> Twitter</a></li>
-          <li><a href="http://github.com/" target="_blank" class=""> GitHub</a></li>
+          <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+          <li class="tab" data-content="about"><a href="#" class="icon-rocket"> About</a></li>
+          <li><a href="http://twitter.com/codefellowsSEA" target="_blank" class="icon-twitter3"> Twitter</a></li>
+          <li><a href="http://github.com/" target="_blank" class="icon-github"> GitHub</a></li>
         </ul>
       </nav>
     </header>
